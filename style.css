@@ -25,9 +25,15 @@ p {
     padding: 10px;
 }
 
+h1 {
+    background-image: linear-gradient(to right, rgb(66, 135, 245), red);
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
 main {
     border: 2px solid black;
-    margin-top: 50px;
 }
 
 #show {
