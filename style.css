@@ -1,0 +1,41 @@
+body {
+    height: 200vh;
+    background-image: linear-gradient(to left, skyblue, wheat);
+}
+
+li {
+    font-size: large;
+    list-style: none;
+    margin-left: 20px;
+}
+
+li:nth-child(odd) {
+    background-color: blueviolet;
+}
+
+li:nth-child(even) {
+    background-color: red;
+}
+
+p {
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    background-image: linear-gradient(to right, rgb(66, 135, 245), pink);
+    padding: 10px;
+}
+
+main {
+    border: 2px solid black;
+    margin-top: 50px;
+}
+
+#show {
+    border: 2px solid red;
+    height: 300px;
+    display: block;
+}
+
+input {
+    margin-top: 10px;
+}
